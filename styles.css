@@ -6,7 +6,7 @@ body{
   font-family: 'Montserrat',sans-serif;
 }
 #header{
-  background-color: #1abc9c;
+  background-color: #D3D3D3;
   height: 150px;
   line-height: 150px;
 }
@@ -114,4 +114,43 @@ a{
 }
 .post-container:nth-child(even){
   background-color: lightGray;
+}
+#content {
+  text-align: center;
+}
+#content img {
+  margin: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #header{
+    height: 100px;
+    line-height: 150px;
+  }
+  #header a{
+    color: white;
+    text-decoration: none;
+  
+    text-transform: uppercase;
+    letter-spacing: 0,1em;
+  }
+  #header a:hover{
+    color: #222;
+  }
+  #header-tittle{
+    display: block;
+    float: left;
+  
+    font-size: 1em;
+    font-weight: bold;
+  }
+  #header-nav{
+    display: block;
+    float: right;
+    margin-top: 0;
+  }
+  #header-nav li{
+    display: inline;
+    padding-left: 20px;
+  }
 }
